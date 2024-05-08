@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend.model import Todo
+from model import Todo
 from database import (
     fetch_one_todo,
     fetch_all_todos,
